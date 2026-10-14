@@ -17,6 +17,9 @@ Not yet verified:
 - Authentic app screenshots.
 - F-Droid's own build pipeline and maintainer review.
 
-Publication status: the public repository exists. The GitHub workflow creates the source preview tag after successful CI. F-Droid submission is pending.
+Publication status: source published publicly; preview release `v1.0.1` created.
+GitHub build, rule tests, Android lint and source-release jobs passed:
+https://github.com/dark-man1978/HitOrMiss/actions/runs/38539669806
+F-Droid submission is pending.
 The test APK is signed for direct device testing. The repository's Gradle
 release remains unsigned for F-Droid to build and sign.
