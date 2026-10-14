@@ -1,17 +1,16 @@
-HitOrMiss 1.0.1 — AI-generated Android reaction game.
+HitOrMiss 1.0.2 — AI-generated Android reaction game.
 
-The code and all 40 comic portraits were created with ChatGPT from a
-human-provided game specification. This source preview includes:
+Application code and all 40 comic portraits were created with ChatGPT from a
+human-provided game specification. The three new screenshots are authentic
+Android captures provided by the maintainer, with system bars and metadata
+removed after explicit publication approval. App pixels are preserved.
 
-- 20 harmless and 20 armed comic portraits.
-- Three difficulty levels, progressive countdowns and local leaderboards.
-- An offline native Java app with no ads or tracking.
-- MIT-licensed code and CC0 artwork documentation.
-- F-Droid build metadata and German/English store descriptions.
+This update adds screenshots and device-test feedback for F-Droid. The
+maintainer reports no errors so far; the installed test version and complete
+test matrix were not reported. Gameplay implementation is unchanged.
 
-The Gradle release build, rule tests and local metadata checks have passed.
-Real-device testing and authentic screenshots are still pending.
+Three difficulties, progressive countdowns, local leaderboards. Offline,
+without advertising or tracking. MIT code; CC0 original game artwork.
 
-This release provides source archives. The GitHub Actions build artifact is
-an unsigned APK for build verification, not a directly installable package.
-F-Droid inclusion has not yet been requested or approved.
+This source preview provides source archives. GitHub's build artifact is an
+unsigned APK for verification. F-Droid inclusion is still pending.

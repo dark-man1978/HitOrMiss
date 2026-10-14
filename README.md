@@ -4,7 +4,7 @@
 The project was developed from a human-provided game specification and has received automated build, rules and metadata checks. The maintainer reports no errors so far during Android device play.
 
 An offline Android reaction game. Native Java, Android 6.0 (API 23) or newer.
-Current version: **1.0.1** (`versionCode 2`). The interface is in German.
+Current version: **1.0.2** (`versionCode 3`). The interface is in German.
 
 ## Gameplay
 
@@ -77,8 +77,8 @@ see `VALIDATION.md` for the scope of that feedback.
 ## F-Droid publication
 
 See `FDROID.md`. `fdroid/metadata/de.steph.hitormiss.yml` is prepared for
-submission to fdroiddata, with release tag `v1.0.1`. The public GitHub repository is
+submission to fdroiddata, with release tag `v1.0.2`. The public GitHub repository is
 https://github.com/dark-man1978/HitOrMiss. F-Droid submission is still pending.
 Store descriptions and icons are in `fastlane/metadata/android/`. Authentic
-app screenshots have been supplied privately; their public upload awaits
-explicit permission. See `SCREENSHOTS.md`.
+app screenshots are included with system bars removed by an exact pixel crop.
+See `SCREENSHOTS.md`.

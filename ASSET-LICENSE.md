@@ -23,3 +23,7 @@ license and copyright notices. The Apache license is supplied in
 `LICENSES/Apache-2.0.txt`.
 
 The Android system typeface is used at runtime; no third-party font is bundled.
+
+Maintainer-provided real-device screenshots are distributed as project
+documentation under the MIT license. Embedded original game artwork retains
+its CC0 dedication. Screenshots are genuine captures, not generated artwork.

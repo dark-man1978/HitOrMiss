@@ -1,0 +1,1 @@
+Add authentic Android screenshots with system bars removed. Device-test feedback: no errors reported so far. Gameplay code and rules unchanged.

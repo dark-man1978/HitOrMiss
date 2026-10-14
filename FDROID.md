@@ -2,11 +2,11 @@
 
 ## Status
 
-Source published on GitHub with preview release `v1.0.1`; **not yet submitted to F-Droid**.
+Source published on GitHub. Version 1.0.2 includes cropped device screenshots; **not yet submitted to F-Droid**.
 
 - Repository: https://github.com/dark-man1978/HitOrMiss
 - Application ID: `de.steph.hitormiss`
-- Release: `1.0.1`, version code `2`, planned tag `v1.0.1`
+- Release: `1.0.2`, version code `3`, tag `v1.0.2` (created by CI after successful checks)
 - Original code: MIT
 - Original artwork: CC0-1.0
 - Native Android Java with no third-party runtime libraries
@@ -20,10 +20,11 @@ no connected GitLab publishing capability in this session.
 
 1. The maintainer reports no errors so far during Android device play. A
    complete test matrix and installed version were not reported; see `VALIDATION.md`.
-2. Authentic screenshots have been supplied privately. Their public upload
-   awaits explicit permission; see `SCREENSHOTS.md`.
+2. Three authentic screenshots are included in both store languages. The
+   maintainer explicitly approved cropping and public GitHub publication on
+   2026-10-14; system bars and PNG metadata were removed. See `SCREENSHOTS.md`.
 3. The source is published to the public repository.
-4. The GitHub workflow has created preview release `v1.0.1` after successful checks. Use this tested release commit when submitting.
+4. The GitHub workflow creates preview release `v1.0.2` after successful checks. Use this release commit when submitting.
 5. Fork `fdroid/fdroiddata` on GitLab and place the prepared metadata file at
    `metadata/de.steph.hitormiss.yml` in that fork.
 6. Run the F-Droid metadata checks and build pipeline; fix any review or build
@@ -31,7 +32,7 @@ no connected GitLab publishing capability in this session.
 
 ## Prepared metadata
 
-The metadata points at the GitHub URL and proposed release tag. These must
+The metadata points at the GitHub URL and release tag. These must
 actually exist before submission. If either changes, update all repository
 links and the `commit` field before submitting.
 
@@ -57,8 +58,8 @@ Services nor a proprietary SDK. It has no network permission, ads or tracking.
 The interface is in German; German and English store descriptions are provided.
 
 Please review the license documentation, content and standard Gradle release
-build. Device-test feedback has been supplied: no errors reported so far. Public
-upload of the accompanying screenshots awaits explicit maintainer permission.
+build. Device-test feedback has been supplied: no errors reported so far. Three genuine cropped
+Android screenshots are included with explicit maintainer publication permission.
 
 ## References
 

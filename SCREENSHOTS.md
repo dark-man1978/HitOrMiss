@@ -1,17 +1,21 @@
-# Authentic app screenshots
+# Authentic device screenshots
 
-The maintainer supplied three genuine Android screenshots on 2026-10-14:
-ongoing gameplay, leaderboards and a round result.
+Three genuine Android screenshots were supplied by the maintainer on 2026-10-14.
+The maintainer explicitly approved pixel cropping and public publication in
+`dark-man1978/HitOrMiss` on the same date.
 
-The images have been reviewed privately. They include Android system bars,
-so public upload is awaiting explicit permission. No screenshots are currently
-published in the repository. The original attachments remain unchanged.
+The original 691 × 1536 pixel PNGs were cropped to the rectangle
+`(left=0, top=80, right=691, bottom=1456)`, yielding 691 × 1376 pixels.
+This removes Android status and navigation bars. PNG metadata is removed.
+Original in-app pixels are preserved without scaling, retouching or AI editing.
+Original attachments remain unchanged and are not uploaded to the repository.
 
-After permission is granted, prepare the screenshots for the German and
-English listings under `fastlane/metadata/android/<locale>/images/phoneScreenshots/`.
-Remove system bars by a lossless pixel crop if the maintainer explicitly
-requests that preparation. Preserve the original app pixels and avoid
-AI-generated or reconstructed screenshots.
+Both de-DE and en-US metadata contain:
 
-The interface is German; the English store listing states this explicitly.
-See `VALIDATION.md` for the maintainer's device-test feedback.
+1. `images/phoneScreenshots/1.png`: ongoing game, easy difficulty.
+2. `images/phoneScreenshots/2.png`: leaderboards in all three difficulties.
+3. `images/phoneScreenshots/3.png`: end-of-round result.
+
+The interface is German; the English listing explains this.
+The maintainer reports no errors so far. The installed APK version and a full
+test matrix were not explicitly reported; see `VALIDATION.md`.
