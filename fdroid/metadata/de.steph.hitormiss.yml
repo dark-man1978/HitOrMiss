@@ -1,0 +1,40 @@
+Categories:
+  - Games
+License: MIT
+AuthorName: dark-man1978
+WebSite: https://github.com/dark-man1978/HitOrMiss
+SourceCode: https://github.com/dark-man1978/HitOrMiss
+IssueTracker: https://github.com/dark-man1978/HitOrMiss/issues
+
+AutoName: HitOrMiss
+Summary: Tap armed adults and let harmless people pass
+Description: |-
+  An offline quick-reaction game with 40 comic portraits, three difficulty
+  levels and separate local top-three leaderboards. The interface is in German.
+
+  Tap visibly armed adults. Let harmless people pass by allowing their timer
+  to expire. Every correct decision earns a point. One wrong decision ends
+  the round. Every three correct decisions shorten the timer by 10%, down to
+  a minimum of 0.3 seconds.
+
+  No ads, tracking, accounts, purchases or network permission. Comic portraits
+  are AI-generated and dedicated under CC0-1.0. Children appear only on harmless
+  cards. The game depicts guns and combat knives without blood or injuries.
+
+RepoType: git
+Repo: https://github.com/dark-man1978/HitOrMiss.git
+
+Builds:
+  - versionName: 1.0.1
+    versionCode: 2
+    commit: v1.0.1
+    subdir: app
+    gradle:
+      - yes
+    scandelete:
+      - gradle/wrapper/gradle-wrapper.jar
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 1.0.1
+CurrentVersionCode: 2

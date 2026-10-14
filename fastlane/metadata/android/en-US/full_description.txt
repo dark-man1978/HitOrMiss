@@ -1,0 +1,18 @@
+HitOrMiss is an offline reaction and decision game with 40 comic portraits.
+
+Tap the picture when the adult is visibly armed. If the person is harmless,
+let the countdown expire without tapping. Every correct decision earns one
+point. Tapping a harmless person or missing an armed person ends the round.
+
+Three difficulty levels start at 5, 3 or 1 second per picture. Every three
+correct decisions reduce the time by 10%, down to a minimum of 0.3 seconds.
+Each difficulty has its own local top-three leaderboard.
+
+The game works entirely offline and has no ads, tracking, purchases, account
+or network permission. The interface is currently in German.
+
+All 40 comic images were generated for this project with AI. Only adults
+appear armed. Children only appear on harmless cards. No blood or injury
+is depicted. The game includes visible guns and combat knives.
+
+Leaving the app aborts the active round without a leaderboard entry.

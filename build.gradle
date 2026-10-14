@@ -1,0 +1,15 @@
+plugins { id 'com.android.application' version '8.7.3' apply false }
+
+tasks.register('compileRulesTest', JavaCompile) {
+    source files('app/src/main/java/de/steph/hitormiss/GameRules.java', 'tests/RulesTest.java')
+    classpath = files()
+    destinationDirectory = layout.buildDirectory.dir('rules-test')
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+    options.release = 8
+}
+tasks.register('rulesTest', JavaExec) {
+    dependsOn 'compileRulesTest'
+    classpath = files(layout.buildDirectory.dir('rules-test'))
+    mainClass = 'RulesTest'
+}

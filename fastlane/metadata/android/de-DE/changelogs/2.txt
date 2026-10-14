@@ -1,0 +1,1 @@
+Version 1.0.1 für Open-Source-Veröffentlichung vorbereitet: MIT-Lizenz, CC0-Bilddokumentation, Release-Bauanleitung und F-Droid-Metadaten. Enthält 40 Comicbilder, drei Schwierigkeitsgrade und lokale Bestenlisten.

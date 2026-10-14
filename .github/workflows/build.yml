@@ -1,0 +1,45 @@
+name: Android release checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Install Android SDK packages
+        run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+      - name: Check rules, release build and Android lint
+        run: ./gradlew --no-daemon rulesTest :app:assembleRelease :app:lintRelease
+      - uses: actions/upload-artifact@v4
+        with:
+          name: HitOrMiss-unsigned-release
+          path: app/build/outputs/apk/release/*.apk
+  source-release:
+    needs: verify
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create source preview release after successful checks
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          version=$(python3 -c "import re; from pathlib import Path; print(re.search(r\"versionName '([^']+)'\", Path('app/build.gradle').read_text()).group(1))")
+          tag="v${version}"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Release $tag already exists; leaving it unchanged."
+          else
+            gh release create "$tag" --target "$GITHUB_SHA" --title "HitOrMiss $version — source preview" --prerelease --notes-file RELEASE-NOTES.md
+          fi

@@ -1,0 +1,1 @@
+Prepare version 1.0.1 for open-source distribution: MIT code license, CC0 artwork documentation, release build instructions and F-Droid metadata. Includes 40 comic cards, three difficulties and local leaderboards.

@@ -1,0 +1,20 @@
+HitOrMiss ist ein Offline-Reaktionsspiel mit 40 Comicporträts.
+
+Ist die erwachsene Person sichtbar bewaffnet, tippe auf das Bild.
+Ist die Person harmlos, lass die Zeit ohne Antippen ablaufen.
+Jede richtige Entscheidung bringt einen Punkt. Ein falscher Tipp oder eine
+verpasste bewaffnete Person beendet die Runde.
+
+Leicht startet mit 5 Sekunden, Mittel mit 3 Sekunden, Schwer mit 1 Sekunde.
+Nach jeweils drei richtigen Entscheidungen sinkt die Zeit um 10 %, bis
+mindestens 0,3 Sekunden. Für jede Schwierigkeit gibt es eine lokale Top drei.
+
+Komplett offline. Keine Werbung, kein Tracking, keine Käufe, kein Konto und
+keine Netzwerkberechtigung. Die Oberfläche ist auf Deutsch.
+
+Die 40 Comicbilder wurden für dieses Projekt mit KI erstellt. Bewaffnete
+Personen sind ausschließlich erwachsen. Kinder erscheinen nur auf harmlosen
+Karten. Keine Darstellung von Blut oder Verletzungen; sichtbar sind
+Schusswaffen und Kampfmesser.
+
+Beim Verlassen der App wird die Runde ohne Bestenlisteneintrag abgebrochen.
