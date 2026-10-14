@@ -11,10 +11,18 @@ Checked on 2026-10-14.
 - APK contains exactly 20 harmless and 20 armed comic cards.
 - Public source package excludes signing keys, local SDK paths, build outputs and caches.
 
+Device feedback received on 2026-10-14:
+
+- The maintainer reports no errors so far during Android device play.
+- Authentic gameplay, leaderboard and result screenshots were supplied privately.
+- Public screenshot upload is awaiting explicit maintainer permission; no images
+  are included in the public repository yet.
+- The installed APK version, device model/OS and complete test matrix were not
+  explicitly reported. Restart persistence, backgrounding and rotation have
+  not been specifically confirmed.
+
 Not yet verified:
 
-- Installation and gameplay on real Android hardware.
-- Authentic app screenshots.
 - F-Droid's own build pipeline and maintainer review.
 
 Publication status: source published publicly; preview release `v1.0.1` created.

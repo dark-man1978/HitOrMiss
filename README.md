@@ -1,7 +1,7 @@
 # HitOrMiss
 
 **AI-generated Android game: the code and all 40 comic portraits were created with ChatGPT.**
-The project was developed from a human-provided game specification and has received automated build, rules and metadata checks. Real-device testing is still pending.
+The project was developed from a human-provided game specification and has received automated build, rules and metadata checks. The maintainer reports no errors so far during Android device play.
 
 An offline Android reaction game. Native Java, Android 6.0 (API 23) or newer.
 Current version: **1.0.1** (`versionCode 2`). The interface is in German.
@@ -65,8 +65,8 @@ scores unless backed up separately.
 
 `./gradlew rulesTest` checks time progression, the minimum countdown, all four
 decision cases, top-three ordering and ties, and 100 balanced shuffled decks.
-`./gradlew :app:lintRelease` runs Android lint. Testing the installed app on
-real Android hardware is still required before requesting F-Droid inclusion.
+`./gradlew :app:lintRelease` runs Android lint. The maintainer has reported no errors so far during Android device play;
+see `VALIDATION.md` for the scope of that feedback.
 
 ## Licenses
 
@@ -80,4 +80,5 @@ See `FDROID.md`. `fdroid/metadata/de.steph.hitormiss.yml` is prepared for
 submission to fdroiddata, with release tag `v1.0.1`. The public GitHub repository is
 https://github.com/dark-man1978/HitOrMiss. F-Droid submission is still pending.
 Store descriptions and icons are in `fastlane/metadata/android/`. Authentic
-app screenshots still need to be captured; see `SCREENSHOTS.md`.
+app screenshots have been supplied privately; their public upload awaits
+explicit permission. See `SCREENSHOTS.md`.

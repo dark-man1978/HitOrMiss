@@ -18,10 +18,10 @@ no connected GitLab publishing capability in this session.
 
 ## Before submitting
 
-1. Test an installed APK on a real Android device: all three difficulties,
-   harmless timeout, harmless tap, armed tap, missed armed person, stored scores,
-   app backgrounding and screen rotation.
-2. Add authentic screenshots as described in `SCREENSHOTS.md`.
+1. The maintainer reports no errors so far during Android device play. A
+   complete test matrix and installed version were not reported; see `VALIDATION.md`.
+2. Authentic screenshots have been supplied privately. Their public upload
+   awaits explicit permission; see `SCREENSHOTS.md`.
 3. The source is published to the public repository.
 4. The GitHub workflow has created preview release `v1.0.1` after successful checks. Use this tested release commit when submitting.
 5. Fork `fdroid/fdroiddata` on GitLab and place the prepared metadata file at
@@ -57,7 +57,8 @@ Services nor a proprietary SDK. It has no network permission, ads or tracking.
 The interface is in German; German and English store descriptions are provided.
 
 Please review the license documentation, content and standard Gradle release
-build. Real-device testing and screenshots will be supplied before submission.
+build. Device-test feedback has been supplied: no errors reported so far. Public
+upload of the accompanying screenshots awaits explicit maintainer permission.
 
 ## References
 
